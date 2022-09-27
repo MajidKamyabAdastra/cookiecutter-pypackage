@@ -1,7 +1,7 @@
 import re
 import sys
 
-
+print("hi1")
 MODULE_REGEX = r'^[_a-zA-Z][_a-zA-Z0-9]+$'
 
 module_name = '{{ cookiecutter.project_slug}}'
