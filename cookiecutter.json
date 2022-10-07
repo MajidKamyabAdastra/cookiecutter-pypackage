@@ -1,10 +1,10 @@
 {
-  "full_name": "Audrey Roy Greenfeld",
-  "email": "audreyr@example.com",
-  "github_username": "audreyr",
-  "project_name": "Python Boilerplate",
+  "full_name": "Majid Kamyab",
+  "email": "majid.kamyab@nutrien.com",
+  "github_username": "majidkamyabadastra",
+  "project_name": "python library repository",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+  "project_short_description": "A shared python library repository - will have sphinx/unittests etc. the sphinx and build need to be configured - and if you are using poetry, that will take a while to set all the parameters, get all the sphinx modules etc.",
   "pypi_username": "{{ cookiecutter.github_username }}",
   "version": "0.1.0",
   "use_pytest": "n",
@@ -14,5 +14,4 @@
   "command_line_interface": ["Click", "Argparse", "No command-line interface"],
   "create_author_file": "y",
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
-  "my_variable":"Majid"
 }
