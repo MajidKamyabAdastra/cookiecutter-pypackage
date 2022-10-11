@@ -1,17 +1,18 @@
-Welcome to {{ cookiecutter.project_name }}'s documentation!
-======================================
+Welcome to python library repository's documentation!
+======================================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    readme
+   git
+   sphinx
    installation
    usage
-   modules
    contributing
-   {% if cookiecutter.create_author_file == 'y' -%}authors
-   {% endif -%}history
+   authors
+   history
 
 Indices and tables
 ==================
